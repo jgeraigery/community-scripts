@@ -63,7 +63,7 @@ dependencies {
     testImplementation("org.codehaus.groovy:groovy-all:2.4.14")
     testImplementation("org.jruby:jruby-complete:1.7.4")
     testImplementation("org.mozilla:zest:0.14.0")
-    testImplementation("org.python:jython-standalone:2.7.1")
+    testImplementation("org.python:jython-standalone:2.7.2b2")
 }
 
 tasks.withType<JavaCompile>().configureEach {
