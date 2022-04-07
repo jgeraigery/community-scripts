@@ -48,7 +48,7 @@ crowdin {
     }
 }
 
-val jupiterVersion = "5.7.0-M1"
+val jupiterVersion = "5.8.2"
 
 dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-api:$jupiterVersion")
