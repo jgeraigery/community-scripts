@@ -7,7 +7,7 @@ import org.zaproxy.gradle.addon.misc.ConvertMarkdownToHtml
 plugins {
     `java-library`
     id("org.zaproxy.add-on") version "0.7.0"
-    id("org.zaproxy.crowdin") version "0.1.0"
+    id("org.zaproxy.crowdin") version "0.2.1"
     id("com.diffplug.spotless") version "5.12.1"
 }
 
