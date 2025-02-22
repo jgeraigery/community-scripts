@@ -8,7 +8,7 @@ plugins {
     `java-library`
     id("org.zaproxy.add-on") version "0.7.0"
     id("org.zaproxy.crowdin") version "0.1.0"
-    id("com.diffplug.spotless") version "5.12.1"
+    id("com.diffplug.spotless") version "5.17.1"
 }
 
 repositories {
@@ -55,9 +55,9 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-params:$jupiterVersion")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:$jupiterVersion")
 
-    testImplementation("commons-io:commons-io:2.6")
-    testImplementation("org.assertj:assertj-core:3.11.0")
-    testImplementation("org.apache.commons:commons-lang3:3.8")
+    testImplementation("commons-io:commons-io:2.18.0")
+    testImplementation("org.assertj:assertj-core:3.27.3")
+    testImplementation("org.apache.commons:commons-lang3:3.17.0")
 
     // The following versions should match the ones of the add-ons.
     testImplementation("org.codehaus.groovy:groovy-all:2.4.14")
