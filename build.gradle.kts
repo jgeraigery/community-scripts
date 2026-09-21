@@ -55,9 +55,9 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-params:$jupiterVersion")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:$jupiterVersion")
 
-    testImplementation("commons-io:commons-io:2.6")
-    testImplementation("org.assertj:assertj-core:3.11.0")
-    testImplementation("org.apache.commons:commons-lang3:3.8")
+    testImplementation("commons-io:commons-io:2.22.0")
+    testImplementation("org.assertj:assertj-core:3.27.7")
+    testImplementation("org.apache.commons:commons-lang3:3.20.0")
 
     // The following versions should match the ones of the add-ons.
     testImplementation("org.codehaus.groovy:groovy-all:2.4.14")
